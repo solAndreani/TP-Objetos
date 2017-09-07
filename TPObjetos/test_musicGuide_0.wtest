@@ -1,0 +1,20 @@
+import musicGuide_0.*
+
+describe "Tests de TP 0" {
+	
+	test "Capacidad de La Trastienda un sabado" {
+		assert.equals(laTrastienda.capacidad("sabado"),700)
+	} 
+	
+	test "Capacidad de La Trastienda un martes" {
+		assert.equals(laTrastienda.capacidad("martes"),400)
+	}
+	
+	test "Capacidad de Luna Park un sabado" {
+		assert.equals(lunaPark.capacidad("sabado"),9290)
+	}
+	
+	test "Capacidad de Luna Park un martes" {
+		assert.equals(lunaPark.capacidad("martes"),9290)
+	}
+}
